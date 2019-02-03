@@ -14,5 +14,6 @@ module.exports = {
     'import/prefer-default-export': 0,
     'no-restricted-syntax': 0,
     'no-underscore-dangle': 0,
+    'no-param-reassign': 0,
   },
 };

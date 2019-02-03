@@ -14,13 +14,12 @@ class UF {
   }
 
   find(p) {
-    let result = p;
     const { parent } = this;
     while (p !== parent[p]) {
       parent[p] = parent[parent[p]];
-      result = parent[p];
+      p = parent[p];
     }
-    return result;
+    return p;
   }
 
   union(p, q) {
