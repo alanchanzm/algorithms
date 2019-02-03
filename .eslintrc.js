@@ -15,5 +15,6 @@ module.exports = {
     'no-restricted-syntax': 0,
     'no-underscore-dangle': 0,
     'no-param-reassign': 0,
+    'no-use-before-define': ['error', { functions: false }],
   },
 };
